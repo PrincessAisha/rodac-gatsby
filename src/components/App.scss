@@ -1,0 +1,73 @@
+$primaryColor: #018903e0;
+$veryLight-green-bg: #13d00426;
+$navHeight: 70px;
+$lightBg: #05dd27ab;
+$darkBg: #018903e0;
+$lightGreen: #05dd27ab;
+$bootstrapSuccess: #28a745;
+.App {
+  text-align: center;
+}
+
+#nav1 {
+  height: $navHeight;
+}
+#navImg {
+  height: $navHeight;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.product-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.product-image{
+  height: 180px;
+  object-fit: contain;
+}
+.benefits-section .card {
+  background-color: transparent;
+}
+
+.box-marker:nth-child(even) .benefit-box{
+  background-color: $lightGreen;
+  
+}
+
+.box-marker:nth-child(odd) .benefit-box{
+  background-color: $bootstrapSuccess;
+  color: white;
+}
+
+.benefit-card {
+  background-color: $darkBg;
+  color: white;
+  border-radius: 0.25rem;
+  vertical-align: middle;
+}
+
+.order-btn:hover{
+  color:white;
+}
+
+/* remove padding for nav links when minimized */
+@media only screen and (max-width: 990px) {
+  .nav-menu a {
+    padding: 5px 0 5px 15px !important;
+  }
+}
+
+.nav-menu a,
+a {
+  color: $primaryColor;
+}
+
+#projects-benefits {
+  background-color: $veryLight-green-bg;
+}
