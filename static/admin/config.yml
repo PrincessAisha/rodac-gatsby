@@ -1,0 +1,140 @@
+backend:
+  name: git-gateway
+
+#   branch: master # Branch to update (optional; defaults to master)
+
+  # repo: RDjarbeng/bugudon-gatsby
+# backend:
+#   name: test-repo
+
+# when using the default proxy server port
+# local_backend: true
+
+# local_backend:
+#   # when using a custom proxy server port
+#   url: http://localhost:8082/api/v1
+#   # when accessing the local site from a host other than 'localhost' or '127.0.0.1'
+#   allowed_hosts: ['192.168.0.1']
+
+media_folder: "static/img" # Media files will be stored in the repo under static/img
+public_folder: "/img"
+
+
+collections:
+# Home page
+  - label: "Home Page"
+    name: "Home"
+    identifier_field: name
+    files:
+      - label: "Home Carousel(Sliding images)"
+        name: "Carousel"
+        file: "src/content/homePageCarousel.json"
+        fields:
+          - {label: "Carousel Image 1", name: "image1", widget: "image", }
+          - {label: "Carousel Image 2", name: "image2", widget: "image", }
+          - {label: "Carousel Image 3", name: "image3", widget: "image", }
+          - {label: "Caption(Text below images)", name: "caption", widget: "string"}
+
+      - label: "Products Section"
+        name: "Products"
+        file: "src/content/productData.json"
+        fields:
+          - label: "Products"
+            name: "productList"
+            widget: "list"
+            add_to_top: true
+            # allow_add: false #todo: remember to enable this
+            # summary: 'product'
+            fields:
+              - {label: "Caption", name: "text", widget: "string", }
+              - {label: "Image", name: "image", widget: "image", }
+
+      - label: "Benefits Section"
+        name: "Benefits"
+        file: "src/content/benefitsData.json"
+        fields:
+          - label: "Benefits"
+            name: "BenefitList"
+            widget: "list"
+            add_to_top: true
+            allow_add: false 
+            fields:
+              - {label: "Benefit", name: "text", widget: "string", }
+
+      - label: "Make Order section"
+        name: "order"
+        file: "src/content/orderData.json"
+        fields:
+          - {label: "Contact a Sales Executive - Number", name: "contact", widget: "string"}
+
+      - label: "About Us section"
+        name: "homeAbout"
+        file: "src/content/homeAboutData.json"
+        fields:
+          - {label: "Objective", name: "objective", widget: "string"}
+          - {label: "Mission", name: "mission", widget: "string"}
+          - {label: "Approach", name: "approach", widget: "string"}
+   
+# Our vegetables page
+  - label: "Our Vegetables Page "
+    name: "ourVegetables"
+    identifier_field: name
+    files:
+      - label: "Vegetable details"
+        name: "Vegetables"
+        file: "src/content/vegesData.json"
+        fields:
+          - label: "Vegetables"
+            name: "data"
+            widget: "list"
+            add_to_top: true
+            allow_add: false 
+            fields:
+              - {label: "Vegetable Caption", name: "title", widget: "string", default: "Lettuce" }
+              - {label: "Image", name: "src", widget: "image", }
+
+#About page              
+  - label: "About Page"
+    name: "about"
+    identifier_field: name
+    files:
+      - label: "About Us"
+        name: "aboutUs"
+        file: "src/content/aboutData.json"
+        fields:
+          - {label: "About Us text", name: "aboutus", widget: "markdown"}
+          - {label: "Subtitle (strategic)", name: "subtitle", widget: "string"}
+          - {label: "Strategic postioning text", name: "strategic", widget: "markdown"}
+          - {label: "Vision", name: "vision", widget: "string"}
+          - {label: "Mission", name: "mission", widget: "string"}
+          - {label: "Values", name: "values", widget: "string"}
+
+# Contact page
+  - label: "Contact Page "
+    name: "Contact"
+    identifier_field: name
+    files:
+      - label: "Contact page details"
+        name: "Contact page"
+        file: "src/content/contactData.json"
+        fields:
+          - {label: "Help Text", name: "helptext", widget: "string"}
+          - {label: "Location information", name: "locationInfo", widget: "string"}
+          - {label: "Postal address information", name: "postalInfo", widget: "string"}
+          - {label: "Email information", name: "emailInfo", widget: "string"}
+          - {label: "Phone information ", name: "phoneInfo", widget: "string"}
+          - {label: "Careers information" , name: "careers", widget: "string"}
+
+  # - label: "Home Page Carousel"
+  #   name: "homeCarousel"
+  #   files:
+  #     - label: "Home Page Carousel top (sliding images)"
+  #       name: "homepage carousel"
+  #       file: "src/content/homeCarousel.md"
+  #       fields:
+  #         - {label: "Title", name: "title", widget: "string", default: "images"}
+  #         - {label: "Image One", name: "image1", widget: "image", default: "ghana.png"}
+  #         - {label: "Image Two", name: "image2", widget: "image", default: "ghana.png"}
+  #         - {label: "Image Three", name: "image3", widget: "image", default: "ghana.png"}
+  #         - {label: "Vision under images", name: "vision", widget: "string"}
+
