@@ -1,5 +1,5 @@
 //rodac colors
-$primaryColor:blue;
+$primaryColor: blue;
 $navLink: #1565c0;
 $navBackground: #e4e9eef2;
 $hoverLink: white;
@@ -11,58 +11,76 @@ $lightBg: #05dd27ab;
 $darkBg: #018903e0;
 $lightGreen: #05dd27ab;
 $bootstrapSuccess: #28a745;
+
+//new
+.overlay {
+  background: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 65vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+//end of new
+
 .App {
   text-align: center;
 }
 
 //set default font
-body, .nav-menu a {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";  
-    
+body,
+.nav-menu a {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol";
 }
-body{
+body {
   font-size: 0.95rem;
-    font-weight: 400;
-    line-height: 1.5;
+  font-weight: 400;
+  line-height: 1.5;
 }
-//NAVBAR 
+//NAVBAR
 
 //active links
-.nav-menu .active, .nav-menu a:hover{
+.nav-menu .active,
+.nav-menu a:hover {
   color: white;
 }
 #nav1 {
   height: $navHeight;
 }
-.navbar{
+.navbar {
   opacity: 0.98;
   background-color: $navBackground;
 }
 
 //set nav links size
-.nav-menu a{
+.nav-menu a {
   font-weight: 700;
-  font-size: .950rem;
-  color:$navLink;
+  font-size: 0.95rem;
+  color: $navLink;
 }
 
-.navbar a{
+.navbar a {
   text-transform: uppercase;
 }
 //navbar brand
 .navbar .navbar-brand {
-    font-size: 1.8rem;
-    color: $primaryColor
+  font-size: 1.8rem;
+  color: $primaryColor;
 }
 
 //img below nav
 //trying to style with gradient, not working
-.carousel-item img{
-  // z-index: 1;
-// background-color: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url('/img/r_3.jpg');
-;
+// .carousel-item img{
+//   // z-index: 1;
+// // background-color: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url('/img/r_3.jpg');
+// ;
 
-}
+// }
 
 //old css
 #navImg {
@@ -73,14 +91,13 @@ body{
   pointer-events: none;
 }
 
-.product-text{
+.product-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
-.product-image{
+.product-image {
   height: 180px;
   object-fit: contain;
 }
@@ -88,12 +105,11 @@ body{
   background-color: transparent;
 }
 
-.box-marker:nth-child(even) .benefit-box{
+.box-marker:nth-child(even) .benefit-box {
   background-color: $lightGreen;
-  
 }
 
-.box-marker:nth-child(odd) .benefit-box{
+.box-marker:nth-child(odd) .benefit-box {
   background-color: $bootstrapSuccess;
   color: white;
 }
@@ -105,8 +121,8 @@ body{
   vertical-align: middle;
 }
 
-.order-btn:hover{
-  color:white;
+.order-btn:hover {
+  color: white;
 }
 
 /* remove padding for nav links when minimized */
@@ -115,7 +131,6 @@ body{
     padding: 5px 0 5px 15px !important;
   }
 }
-
 
 #projects-benefits {
   background-color: $veryLight-green-bg;

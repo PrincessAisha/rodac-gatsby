@@ -4,18 +4,42 @@ import Carousel from "react-bootstrap/Carousel"
 import images from "../../content/homePageCarousel.json"
 
 export default function Carousels() {
-  const { caption } = images
-  let image1, image2, image3;
-  image1 = image2 = image3 = 'img/r_3.jpg'
+  const { image1, image2, image3, caption } = images
   return (
     <section id="intro">
-      <Carousel className="img-hidden">
+      <div style={{ height: "65vh" }}>
+        <img
+          className="d-block w-100"
+          src={image1}
+          alt="First slide"
+          style={{ width: "100%", height: "100%", objectFit: "cover" }}
+        />
+        <div className="overlay"></div>
+
+        <div className="container textContainer">
+          <div className="homeText">
+            <h1 className="rodacSize text-white">Rodac Engineering Limited</h1>
+            <p className="lead text-light my-4">
+              Results-oriented design, architecture, and construction at your
+              service
+            </p>
+            <a
+              href="#signup"
+              className="btn btn-large btn-primary page-scroll btn-round"
+              data-aos="fade-up"
+            >
+              CONTACT US
+            </a>
+          </div>
+        </div>
+      </div>
+      {/* <Carousel className="img-hidden">
         <Carousel.Item>
           <div style={{ height: "70vh" }}>
             <img
-              className="d-block w-100"
-              // src='/img/contact_1.png'
-              src={image1}
+              className="d-block w-100" */}
+      {/* // src='/img/contact_1.png' */}
+      {/* src={image1}
               alt="First slide"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
@@ -24,14 +48,14 @@ export default function Carousels() {
         <Carousel.Item>
           <div style={{ height: "70vh" }}>
             <img
-              className="d-block w-100"
-              // src='/img/hasin-hayder-974UGD5ov44-unsplash.jpg'
-              src={image2}
+              className="d-block w-100" */}
+      {/* // src='/img/hasin-hayder-974UGD5ov44-unsplash.jpg' */}
+      {/* src={image2}
               alt="Third slide"
               style={{ width: "100%", height: "100%", objectFit: "cover" }}
             />
-          </div>
-          {/* <Carousel.Caption
+          </div> */}
+      {/* <Carousel.Caption
             style={{
               maxWidth: "70%",
               maxHeight: "70%",
@@ -47,7 +71,7 @@ export default function Carousels() {
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </div>
           </Carousel.Caption> */}
-        </Carousel.Item>
+      {/* </Carousel.Item>
         <Carousel.Item>
           <div style={{ height: "70vh" }}>
             <img
@@ -59,19 +83,19 @@ export default function Carousels() {
             />
           </div>
         </Carousel.Item>
-      </Carousel>
+      </Carousel> */}
 
-      <div className="row ml-0 mr-0 logo-info">
-        {/* <div className="col-md-2 text-white p-2 text-center vision-heading-col">
+      {/* <div className="row ml-0 mr-0 logo-info"> */}
+      {/* <div className="col-md-2 text-white p-2 text-center vision-heading-col">
                         <h6 className="intro-text">Our Vision</h6>
                     </div> */}
-        <div className="col bg-warning p-2 text-center cursive-heading ">
-          <h6 className="intro-text">
-            {/* To build a world-className listed mining firm with a chain of large-scale mines across Ghana and West Africa. */}
-            {caption}
+      {/* <div className="col bg-warning p-2 text-center cursive-heading ">
+          <h6 className="intro-text"> */}
+      {/* To build a world-className listed mining firm with a chain of large-scale mines across Ghana and West Africa. */}
+      {/* {caption}
           </h6>
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }
