@@ -4,7 +4,9 @@ import Carousel from "react-bootstrap/Carousel"
 import images from "../../content/homePageCarousel.json"
 
 export default function Carousels() {
-  const { image1, image2, image3, caption } = images
+  const { caption } = images
+  let image1, image2, image3;
+  image1 = image2 = image3 = 'img/r_4.jpg'
   return (
     <section id="intro">
       <Carousel className="img-hidden">
