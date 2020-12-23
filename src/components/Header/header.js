@@ -7,10 +7,9 @@ export default function Header() {
     <header id="nav1" style={{ height: "30px" }}>
       <Navbar
         expand="lg"
-        bg="light"
-        variant="light"
+        variant=""
         collapseOnSelect
-        className="navbar navbar-expand-lg navbar-light bg-white p-0 nav-menu shadow"
+        className="navbar navbar-expand-lg p-0 nav-menu shadow"
       >
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,15 +20,7 @@ export default function Header() {
           <Navbar.Brand>
             <div>
               <Link className="navbar-brand p-0 mr-auto p-1" to="/">
-                <div style={{ width: "150px", height: "40px" }}>
-                  <img
-                    id="navImg"
-                    src="/img/JaseyFarms_new_full_Logo.jpeg"
-                    alt="logo"
-                    className=" d-inline-block align-top w-100 h-100"
-                    style={{ height: "" }}
-                  />
-                </div>
+                  RODAC
               </Link>
             </div>
           </Navbar.Brand>
