@@ -11,7 +11,7 @@ const AboutUs = () => {
         <div data-aos="fade-up">
           <h2 className="n-section-title mb-4 text-center">About Us</h2>
         </div>
-        <div className="pt-5 pb-4 margin-round">
+        <div className="pt-5 pb-4 margin-round c-shadow">
           <div className="about-us-main card-deck p-3">
             <div className=" col-md-4 col-sm-12">
               <div className="icon-box text-center mb-4 pt-1">
