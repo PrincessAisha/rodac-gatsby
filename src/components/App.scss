@@ -24,6 +24,85 @@ $bootstrapSuccess: #28a745;
   object-fit: cover;
 }
 
+.textContainer {
+  position: absolute;
+  top: 15%;
+  padding-left: 5%;
+  letter-spacing: 0.2rem;
+}
+
+@media (max-width: 700px) {
+  .textContainer {
+    top: 10%;
+    // letter-spacing: normal;
+  }
+}
+
+.rodacSize {
+  font-size: 4rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 700px) {
+  .rodacSize {
+    font-size: 2.5rem;
+  }
+}
+
+.m-top {
+  margin-top: 3rem;
+}
+
+.m-bottom {
+  margin-bottom: 3rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap");
+.lead {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+}
+
+@media (max-width: 700px) {
+  .lead {
+    font-size: 1rem;
+    margin-top: 0;
+  }
+
+  .m-top {
+    margin-top: 1rem;
+  }
+
+  .m-bottom {
+    margin-bottom: 1rem;
+  }
+}
+
+.maxWidth {
+  max-width: 80%;
+}
+
+.anchor {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.btn-round {
+  padding: 1.5rem;
+  border-radius: 100px;
+}
+
+@media (max-width: 700px) {
+  .btn-round {
+    font-size: 0.7rem;
+    padding: 1rem;
+  }
+}
+
 //end of new
 
 .App {

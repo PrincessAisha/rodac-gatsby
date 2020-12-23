@@ -18,18 +18,23 @@ export default function Carousels() {
 
         <div className="container textContainer">
           <div className="homeText">
-            <h1 className="rodacSize text-white">Rodac Engineering Limited</h1>
-            <p className="lead text-light my-4">
-              Results-oriented design, architecture, and construction at your
-              service
-            </p>
-            <a
-              href="#signup"
-              className="btn btn-large btn-primary page-scroll btn-round"
-              data-aos="fade-up"
-            >
-              CONTACT US
-            </a>
+            <div className="maxWidth">
+              <h1 className="rodacSize text-white">
+                Rodac Engineering Limited
+              </h1>
+              <p className="lead text-light m-top m-bottom">
+                Results-oriented design, architecture, and construction at your
+                service
+              </p>
+              {/* <p className="lead text-light m-bottom"> at your service</p> */}
+              <a
+                href="#signup"
+                className="btn btn-large btn-primary btn-round"
+                data-aos="fade-up"
+              >
+                CONTACT US
+              </a>
+            </div>
           </div>
         </div>
       </div>
