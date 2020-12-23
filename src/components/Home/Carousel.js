@@ -6,7 +6,7 @@ import images from "../../content/homePageCarousel.json"
 export default function Carousels() {
   const { caption } = images
   let image1, image2, image3;
-  image1 = image2 = image3 = 'img/r_4.jpg'
+  image1 = image2 = image3 = 'img/r_3.jpg'
   return (
     <section id="intro">
       <Carousel className="img-hidden">
