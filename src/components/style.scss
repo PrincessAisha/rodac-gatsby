@@ -1,5 +1,5 @@
 $veryLight-green-bg: #13d00426;
-$primaryColor:blue;
+$primaryColor: blue;
 $navLink: #1565c0;
 $navBackground: #e4e9eef2;
 $lightGreen: #05dd27ab;
@@ -93,9 +93,10 @@ html {
 
 //***************************************
 body {
-  font-family: "Cormorant Garamond", serif;
+  font-family: "Roboto", sans-serif;
   color: #121213;
   line-height: 1.1;
+  font-weight: 500;
 }
 
 /* contact page top styles */

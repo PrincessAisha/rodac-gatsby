@@ -110,6 +110,41 @@ a:hover {
   }
 }
 
+.n-section-title {
+  font-size: 3.5rem !important;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+}
+
+.about-us-main {
+  font-size: 1.2rem;
+  letter-spacing: 0.1rem;
+}
+
+.card-head {
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+
+.margin-round {
+  margin-left: 4rem;
+  margin-right: 4rem;
+  box-shadow: 15px 15px 20px;
+}
+
+@media (max-width: 700px) {
+  .margin-round {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    box-shadow: 5px 5px 10px;
+  }
+}
+
 //end of new
 
 .App {
