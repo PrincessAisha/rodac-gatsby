@@ -73,9 +73,6 @@ const AboutUs = () => {
             </button>
           </div>
         </div>
-        <div>
-          <div className='display-3 bg-secondary'>Our clients</div>
-        </div>
       </div>
     </section>
   )

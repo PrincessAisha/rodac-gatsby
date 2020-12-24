@@ -73,19 +73,7 @@ export default function Footer() {
           </div>
         </div>
       </div>
-      <div className="container-fluid p-0" style={{ backgroundColor: "ash" }}>
-        <p className="copyright mb-0">
-          &copy; Copyright{" "}
-          {new Date().getFullYear() > 2020 ? new Date().getFullYear() : "2020"}{" "}
-          <strong>
-            <span>rodac</span>
-          </strong>
-          . All Rights Reserved. Developed and maintained by{" "}
-          <a href="#" >
-            Sterde
-          </a>
-        </p>
-      </div>
+      
       <span className="back-to-top">
         <i className="icofont-simple-up"></i>
       </span>
