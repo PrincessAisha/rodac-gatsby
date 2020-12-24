@@ -67,7 +67,7 @@ export default function Footer() {
             className="col-12  text-center small-xl"
           >
             <p style={{ color: "white" }}>
-              &copy; 2020 Rodac. All rights reserved.Website developed by
+              &copy; 2020 Rodac. All rights reserved.Website developed by 
               <a href="https://sterde.com">Sterde</a>.
             </p>
           </div>
