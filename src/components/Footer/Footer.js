@@ -75,10 +75,10 @@ export default function Footer() {
           &copy; Copyright{" "}
           {new Date().getFullYear() > 2020 ? new Date().getFullYear() : "2020"}{" "}
           <strong>
-            <span>Jasey Farms Ltd</span>
+            <span>rodac</span>
           </strong>
           . All Rights Reserved. Developed and maintained by{" "}
-          <a href="https://sterde.com" style={{ color: "#fdb305" }}>
+          <a href="#" >
             Sterde
           </a>
         </p>
