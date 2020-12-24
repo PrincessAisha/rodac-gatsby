@@ -9,8 +9,8 @@ export default function ProductSection() {
     <section id="projects">
       <div className="container project-con">
         <SectionTitle
-          title="Our Products"
-          subtitle="We highly recommend you place an order by using the option below:"
+          title="Our Services"
+          subtitle="lorem"
         />
         <ProductCard/>
           {/* <ProductCards caption={content[0].text0} image={content[0].Image0} /> */}

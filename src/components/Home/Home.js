@@ -9,10 +9,11 @@ export default function Home() {
   return (
     <React.Fragment>
       <Carousels />
+      <AboutUs />
       <ProductSection />
       <BenefitSection />
       <Orders />
-      <AboutUs />
+      
     </React.Fragment>
   )
 }

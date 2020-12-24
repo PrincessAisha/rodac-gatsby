@@ -8,7 +8,7 @@ export default function ProductBenefits() {
     <section id="projects-benefits" className="">
       <div className="container project-con section-title-2">
         <SectionTitle
-          title="BENEFITS"
+          title="Gallery"
           subtitle="A diet rich in vegetables can:"
         />
           <BenefitCard/>

@@ -11,11 +11,11 @@ const AboutUs = () => {
         <div className="section-title mb-5" data-aos="fade-up">
           <h2>About Us</h2>
         </div>
-        <div className="row">
+        <div className="row shadow-lg">
           <div className="about-us-main card-deck">
             <div className=" col-md-4 col-sm-12">
               <div className="icon-box text-center mb-3">
-                <IconContext.Provider value={{ color: "green", size: "3rem" }}>
+                <IconContext.Provider value={{ color: "blue", size: "3rem" }}>
                   <FaBriefcase />
                 </IconContext.Provider>
               </div>
@@ -69,6 +69,9 @@ const AboutUs = () => {
               Read more...
             </Link>
           </button>
+        </div>
+        <div>
+          <div className='display-3 bg-secondary'>Our clients</div>
         </div>
       </div>
     </section>
