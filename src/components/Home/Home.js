@@ -7,6 +7,7 @@ import BenefitSection from "./BenefitSection"
 import Client from "./Client"
 import Service from "./Service"
 import GetInTouch from "./GetInTouch"
+import Gallerys from "./Gallery"
 
 export default function Home() {
   return (
@@ -16,12 +17,12 @@ export default function Home() {
 
       <Client />
       <Service />
+      <Gallerys />
 
-      <ProductSection />
+      {/* <ProductSection />
       <BenefitSection />
-      <Orders />
+      <Orders /> */}
       <GetInTouch />
-
     </React.Fragment>
   )
 }

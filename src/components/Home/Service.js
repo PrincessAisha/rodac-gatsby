@@ -2,7 +2,7 @@ import React from "react"
 
 const Service = () => {
   return (
-    <section className="py-7 secserv" id="services">
+    <section className="py-7 secserv mb-5" id="services">
       <div className="col-12  small-xl  text-center mb-3 ">
         <h2 className="n-section-title pt-3">Our Services</h2>
       </div>
