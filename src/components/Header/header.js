@@ -27,8 +27,8 @@ export default function Header() {
             RODAC
         </Navbar.Brand>
           </Link>
-        <Navbar.Toggle aria-controls="basic-navbar-nav" >
-          <span class='navButton'>Menu</span>
+        <Navbar.Toggle aria-controls="basic-navbar-nav " className="py-2">
+          <span className='navButton '>MENU</span>
         </Navbar.Toggle>
         <Navbar.Collapse
           id="responsive-navbar-nav"
