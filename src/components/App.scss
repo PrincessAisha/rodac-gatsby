@@ -14,6 +14,14 @@ $lightGreen: #05dd27ab;
 $bootstrapSuccess: #28a745;
 
 //new
+*{
+  box-sizing: border-box;
+}
+
+html, body{
+  overflow-x: hidden;
+}
+
 .active {
   color: $hoverLink !important;
 }
