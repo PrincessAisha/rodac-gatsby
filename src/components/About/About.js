@@ -11,7 +11,7 @@ const AboutPage = () => {
       className="strat"
       style={{ backgroundColor: "#fff" }}
     >
-      <AboutUs />
+      <AboutUs showReadMoreButton={false} showAboutText={true}/>
     </section>
   )
 }

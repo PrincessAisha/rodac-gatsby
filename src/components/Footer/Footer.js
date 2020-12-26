@@ -12,33 +12,33 @@ export default function Footer() {
         <div className="row margin-round">
           <div className="col-md-4 col-sm-6">
             <h5 className="text-white">Careers</h5>
-            <p className="about" style={{ textAlign: "justify" }}>
+            <div className="about" style={{ textAlign: "justify" }}>
               Presently, we do not have any opportunities, but we do appreciate
               the opportunity to work with brilliant individuals in sync with
               our company's objectives and mission. Please send us your profile
               and contact details, and we will reach you as and when
               opportunities arise. Thank you.
-            </p>
+            </div>
           </div>
 
-          <div className="col-md-3 col-sm-6 ml-auto">
+          <div className="col-md-4 col-sm-6 ml-auto">
             <h5 className="text-white">Contact</h5>
             <ul className="list-unstyled mt-4">
               <li>
-                <p className="blue">Telephone:</p>
-                <p style={{ color: "white" }}>
+                <div className="blue">Telephone:</div>
+                <div style={{ color: "white" }}>
                   +233 20 822 3938
                   <br />
                   +233 54 105 4343
-                </p>
+                </div>
               </li>
               <li>
-                <p className="blue">Email:</p>
-                <p style={{ color: "white" }}>
+                <div className="blue">Email:</div>
+                <div style={{ color: "white" }}>
                   Info@rodacengineering.com
                   <br />
                   Johnson@rodacengineering.com
-                </p>
+                </div>
               </li>
             </ul>
           </div>
@@ -46,16 +46,16 @@ export default function Footer() {
             <h5 className="text-white">Address</h5>
             <ul className="list-unstyled mt-4 ">
               <li>
-                <p className="blue">Location:</p>
-                <p style={{ color: "white" }}>
+                <div className="blue">Location:</div>
+                <div style={{ color: "white" }}>
                   Near Techiman Post Office Techiman, Bono Region Ghana
-                </p>
+                </div>
               </li>
               <li>
-                <p className="blue">Postal Address:</p>
-                <p style={{ color: "white" }}>
+                <div className="blue">Postal Address:</div>
+                <div style={{ color: "white" }}>
                   Post Office Box 42 Sunyani, Bono East Region Ghana
-                </p>
+                </div>
               </li>
             </ul>
           </div>
@@ -66,10 +66,10 @@ export default function Footer() {
             style={{ color: "white" }}
             className="col-12  text-center small-xl"
           >
-            <p style={{ color: "white" }}>
+            <div style={{ color: "white" }}>
               &copy; 2020 Rodac. All rights reserved.Website developed by 
               <a href="https://sterde.com">Sterde</a>.
-            </p>
+            </div>
           </div>
         </div>
       </div>

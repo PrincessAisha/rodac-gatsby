@@ -1,7 +1,7 @@
 {
-  "name": "bugudon-site-built-with-gatsby",
+  "name": "rodac-site-built-with-gatsby",
   "private": true,
-  "description": "Site for Bugudon mining",
+  "description": "Site for Rodac",
   "version": "0.1.0",
   "license": "0BSD",
   "scripts": {
