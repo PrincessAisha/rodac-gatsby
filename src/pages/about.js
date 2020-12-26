@@ -1,11 +1,11 @@
 import React from "react"
-import AboutUs from "../components/About/About"
 import Layout from "../components/layout"
+import AboutPage from "../components/About/About"
 
 const About = () => {
   return (
-    <Layout>
-      <AboutUs />
+    <Layout image="img/r_5.jpg">
+      <AboutPage />
     </Layout>
   )
 }
