@@ -13,6 +13,10 @@ $lightGreen: #05dd27ab;
 $bootstrapSuccess: #28a745;
 
 //new
+.active {
+  color: $darkBg !important;
+}
+
 .blue {
   color: $primaryColor;
 }
@@ -297,11 +301,10 @@ body {
 
 //img below nav
 //trying to style with gradient, not working
-.carousel-item img{
+.carousel-item img {
   // z-index: 1;
-// background-color: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url('/img/r_3.jpg');
-// ;
-
+  // background-color: linear-gradient(to right, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.1)), url('/img/r_3.jpg');
+  // ;
 }
 
 //old css

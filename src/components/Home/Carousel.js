@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-scroll"
 // import images from "../../content/homePageCarousel.json"
 
 export default function Carousels({ images }) {
@@ -24,13 +25,23 @@ export default function Carousels({ images }) {
                 Results-oriented design, architecture, and construction at your
                 service
               </p>
-              <a
-                href="#signup"
+              {/* <Link
+                to="/#contact"
                 className="btn btn-large btn-primary btn-round"
-                data-aos="fade-up"
               >
                 CONTACT US
-              </a>
+              </Link> */}
+              <Link
+                activeClass="active"
+                className="btn btn-primary btn-round btn-primary d-inline-flex flex-row align-items-center"
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
+                {" "}
+                CONTACT US
+              </Link>
             </div>
           </div>
         </div>

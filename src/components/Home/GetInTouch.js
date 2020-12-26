@@ -4,11 +4,10 @@ const GetInTouch = () => {
   return (
     <section
       className="py-5 py-md-6 bg-hero inverse"
-      id="signup"
       style={{ backgroundImage: "url(img/r_9.jpg)" }}
     >
       <div className="">
-        <div className="row margin-round btn-round">
+        <div className="row margin-round btn-round" id="contact">
           <div className="col-md-6 my-md-auto text-center text-md-left pb-5 pb-md-0">
             <h2 className="display-4 text-white">Please get in touch</h2>
             <p

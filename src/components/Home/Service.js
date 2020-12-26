@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-scroll"
 
 const Service = () => {
   return (
@@ -54,12 +55,23 @@ const Service = () => {
               <li>Drainage works</li>
             </ul>
             <p className="leadpara mt-4">
-              <a
-                href="#signup"
+              {/* <Link
+                to="/#contact"
                 className="btn btn-primary btn-round btn-primary d-inline-flex flex-row align-items-center"
               >
                 CONTACT US
-              </a>
+              </Link> */}
+              <Link
+                activeClass="active"
+                className="btn btn-primary btn-round btn-primary d-inline-flex flex-row align-items-center"
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                {" "}
+                CONTACT US
+              </Link>
             </p>
           </div>
           <div className="col-md-6 my-auto">
@@ -97,12 +109,23 @@ const Service = () => {
               materials.
             </p>
             <p className="leadpara mt-3">
-              <a
+              {/* <a
                 href="#signup"
                 className="btn btn-primary btn-primary d-inline-flex flex-row align-items-center btn-round"
               >
                 CONTACT US{" "}
-              </a>
+              </a> */}
+              <Link
+                activeClass="active"
+                className="btn btn-primary btn-round btn-primary d-inline-flex flex-row align-items-center"
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                {" "}
+                CONTACT US
+              </Link>
             </p>
           </div>
         </div>
@@ -134,12 +157,23 @@ const Service = () => {
               <li>Pickup trucks</li>
             </ul>
             <p className="leadpara mt-5">
-              <a
+              {/* <a
                 href="#signup"
                 className="btn btn-primary btn-primary d-inline-flex flex-row align-items-center btn-round"
               >
                 CONTACT US
-              </a>
+              </a> */}
+              <Link
+                activeClass="active"
+                className="btn btn-primary btn-round btn-primary d-inline-flex flex-row align-items-center"
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                {" "}
+                CONTACT US
+              </Link>
             </p>
           </div>
         </div>

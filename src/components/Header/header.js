@@ -1,6 +1,7 @@
 import React from "react"
 import { Navbar, Nav } from "react-bootstrap"
 import { Link } from "gatsby"
+import { Link as Scroll } from "react-scroll"
 
 export default function Header() {
   return (
@@ -20,7 +21,7 @@ export default function Header() {
           <Navbar.Brand>
             <div>
               <Link className="navbar-brand p-0 mr-auto p-1" to="/">
-                  RODAC
+                RODAC
               </Link>
             </div>
           </Navbar.Brand>
@@ -29,26 +30,66 @@ export default function Header() {
               <Link activeClassName="active" to="/">
                 Home
               </Link>
+              {/* <Scroll
+                activeClass="active"
+                to="intro"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                {" "}
+                HOME
+              </Scroll> */}
             </Nav.Link>
             <Nav.Link className="nav-item">
-              <Link to="/#order" activeClassName="active">
-                Order Now
+              {/* <Link to="/#about" activeClassName="active">
+                ABOUT US
+              </Link> */}
+              <Scroll
+                activeClass="active"
+                to="about"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                {" "}
+                ABOUT US
+              </Scroll>
+            </Nav.Link>
+            <Nav.Link className="nav-item">
+              {/* <Link to="/#services" activeClassName="active">
+                SERVICES
+              </Link> */}
+              <Scroll
+                activeClass="active"
+                to="services"
+                spy={true}
+                smooth={true}
+                duration={500}
+              >
+                {" "}
+                SERVICE
+              </Scroll>
+            </Nav.Link>
+            <Nav.Link className="nav-item">
+              <Link to="/gallery" activeClassName="active">
+                GALLERY
               </Link>
             </Nav.Link>
             <Nav.Link className="nav-item">
-              <Link to="/about" activeClassName="active">
-                About Us
-              </Link>
-            </Nav.Link>
-            <Nav.Link className="nav-item">
-              <Link to="/ourvegetables" activeClassName="active">
-                Our Vegetable
-              </Link>
-            </Nav.Link>
-            <Nav.Link className="nav-item">
-              <Link to="/contact" activeClassName="active">
-                Contact Us
-              </Link>
+              {/* <Link to="/#contact" activeClassName="active">
+                CONTACT
+              </Link> */}
+              <Scroll
+                activeClass="active"
+                to="contact"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
+                {" "}
+                CONTACT
+              </Scroll>
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

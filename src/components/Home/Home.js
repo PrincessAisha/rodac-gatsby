@@ -9,17 +9,13 @@ import Gallerys from "./Gallery"
 export default function Home() {
   return (
     <React.Fragment>
-      {/* <Carousels /> */}
-      <AboutUs />
+      <section id="home">
+        <AboutUs />
 
-      <Client />
-      <Service />
-      <Gallerys />
-
-      {/* <ProductSection />
-      <BenefitSection />
-      <Orders /> */}
-      {/* <GetInTouch /> */}
+        <Client />
+        <Service />
+        <Gallerys />
+      </section>
     </React.Fragment>
   )
 }
