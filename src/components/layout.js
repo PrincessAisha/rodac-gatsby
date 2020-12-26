@@ -6,6 +6,7 @@ import Footer from "./Footer/Footer"
 import "./style.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./App.scss"
+
 import GetInTouch from "./Home/GetInTouch"
 import Carousels from "./Home/Carousel"
 // import images from "../../content/homePageCarousel.json"

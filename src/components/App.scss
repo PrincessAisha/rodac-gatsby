@@ -286,7 +286,7 @@ body {
 
 //active links
 .nav-menu .active,
-.nav-menu a:hover {
+.nav-menu a:hover, .nav-menu .active > a {
   color: white;
 }
 #nav1 {
@@ -300,11 +300,11 @@ body {
   opacity: 1.0;
   // background-color: $navBackground;
 }
-//set nav links size
-.nav-menu a {
+//set nav links size and color
+#nav1 .nav-menu a {
   font-weight: 700;
   font-size: 0.95rem;
-  color: $navLink;
+  color: $navLink ;
 }
 
 .navbar a {
