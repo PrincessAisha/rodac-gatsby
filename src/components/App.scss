@@ -325,6 +325,14 @@ body {
   height: 40vmin;
   pointer-events: none;
 }
+//nav button
+button.navbar-toggler{
+  background-color: #0b4cd8;;
+}
+.navButton{
+  color: white;
+  // background-color: $lightBg;
+}
 
 .product-text {
   display: flex;

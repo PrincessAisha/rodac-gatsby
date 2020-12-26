@@ -27,10 +27,9 @@ export default function Header() {
             RODAC
         </Navbar.Brand>
           </Link>
-        {/* <Navbar.Toggle aria-controls="basic-navbar-nav" >
-          <span>Menu</span>
-        </Navbar.Toggle> */}
-        <Navbar.Toggle  />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" >
+          <span class='navButton'>Menu</span>
+        </Navbar.Toggle>
         <Navbar.Collapse
           id="responsive-navbar-nav"
           style={{ height: "60px" }}
