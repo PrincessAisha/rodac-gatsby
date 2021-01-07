@@ -6,7 +6,7 @@ import { Link as Scroll } from "react-scroll"
 export default function Header() {
   const [expanded, setExpanded] = useState(false);
   return (
-    <header id="nav1" style={{ height: "30px" }}>
+    <header id="nav1" >
       <Navbar
         expanded={expanded}
         onClick={() => setExpanded((prevExpanded) => (prevExpanded = !prevExpanded))}
